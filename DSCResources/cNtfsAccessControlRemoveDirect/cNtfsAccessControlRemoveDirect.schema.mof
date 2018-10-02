@@ -1,0 +1,5 @@
+[ClassVersion("0.9.0.0"), FriendlyName("cNtfsAccessControlRemoveDirect")]
+class cNtfsAccessControlRemoveDirect : OMI_BaseResource
+{
+    [Key, Description("Indicates the path to the target item.")] String Path;
+};

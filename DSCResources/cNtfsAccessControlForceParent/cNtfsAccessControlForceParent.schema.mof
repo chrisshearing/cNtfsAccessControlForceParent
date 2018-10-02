@@ -1,6 +1,0 @@
-
-[ClassVersion("0.9.0.0"), FriendlyName("NTFSAccessControlForceParent")]
-class NTFSAccessControlForceParent : OMI_BaseResource
-{
-    [Key, Description("Indicates the path to the target item.")] String Path;
-};
